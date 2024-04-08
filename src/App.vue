@@ -33,7 +33,7 @@ export default {
 <style>
 :root {
     --rax-primary: #4350FF;
-    -rax-secondary: #05CC7C;
+    --rax-secondary: #05CC7C;
     --rax-highlight: #00AC4D;
     --rax-light: #ffffff;
     --rax-dark: #333287;
@@ -43,7 +43,6 @@ export default {
 
 body {
     max-width: 1920px;
-    color: var(--rax-light);
 }
 
 .container {
