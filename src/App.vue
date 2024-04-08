@@ -28,4 +28,14 @@ export default {
     </div>
 </template>
 
-<style></style>
+<style>
+:root {
+    --rax-primary: #4350FF;
+    -rax-secondary: #05CC7C;
+    --rax-highlight: #00AC4D;
+    --rax-light: #ffffff;
+    --rax-dark: #333287;
+    --rax-darker: #202046;
+    --rax-darkest: #191935;
+}
+</style>
