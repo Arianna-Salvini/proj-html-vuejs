@@ -43,12 +43,18 @@ export default {
 
 body {
     max-width: 1920px;
+    color: var(--rax-light);
 }
 
 .container {
     width: 70%;
     height: 100%;
     margin: auto;
-    background-color: #05CC7C;
+    /* background-color: #05CC7C; */
+}
+
+.d_flex {
+    display: flex;
+    align-items: center;
 }
 </style>
