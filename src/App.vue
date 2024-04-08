@@ -1,5 +1,7 @@
 <script>
 
+
+
 import AppHeader from "./components/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
 import AppFooter from "./components/AppFooter.vue";
@@ -37,5 +39,16 @@ export default {
     --rax-dark: #333287;
     --rax-darker: #202046;
     --rax-darkest: #191935;
+}
+
+body {
+    max-width: 1920px;
+}
+
+.container {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    background-color: #05CC7C;
 }
 </style>
