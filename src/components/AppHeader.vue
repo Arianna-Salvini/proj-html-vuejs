@@ -1,12 +1,14 @@
 <script>
 import NavigationBar from "./NavigationBar.vue";
-import ButtonText from "./ButtonText.vue"
+import ButtonText from "./ButtonText.vue";
+import ButtonPlay from "./ButtonPlay.vue";
 
 export default {
     name: 'AppHeader',
     components: {
         NavigationBar,
         ButtonText,
+        ButtonPlay,
     }
 }
 </script>
@@ -19,7 +21,12 @@ export default {
                 <div>
                     <h4 id="welcome">Welcome to raxg</h4>
                     <h2>Are youready for your next challenge?</h2>
-                    <ButtonText title="Read More" iconButton="fa-solid fa-right-long" />
+                    <div class="button_area d_flex">
+                        <ButtonText title="Read More" iconButton="fa-solid fa-right-long" />
+                        <ButtonPlay />
+                    </div>
+                    <!-- /.button_area -->
+
                 </div>
             </div>
         </div>
@@ -48,6 +55,10 @@ header {
 
     & h2 {
         font-size: 4rem;
+    }
+
+    .button_area {
+        justify-content: center;
     }
 }
 </style>
