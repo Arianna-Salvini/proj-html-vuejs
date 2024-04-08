@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-    <button>
+    <button class="text_button">
         <span class="title_button">
             {{ title }}
         </span>
@@ -18,7 +18,7 @@ export default {
 </template>
 
 <style>
-button {
+.text_button {
     margin: 2rem;
     padding: 1rem 2rem;
     font-size: 1rem;
