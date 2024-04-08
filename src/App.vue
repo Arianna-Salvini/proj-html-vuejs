@@ -43,6 +43,7 @@ export default {
 
 body {
     max-width: 1920px;
+    background-color: var(--rax-darker);
 }
 
 .container {
