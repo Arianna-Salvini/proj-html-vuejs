@@ -40,7 +40,6 @@ export default {
     --rax-darker: #202046;
     --rax-darkest: #191935;
     --rax-darkest-overlay: #19193580;
-
 }
 
 body {

@@ -50,17 +50,15 @@ export default {
 
         </section>
         <!-- /.gamer_shop -->
-        <sectio class="latest_news">
+        <section class="latest_news">
 
-        </sectio>
+        </section>
         <!-- /.latest_news -->
     </main>
 </template>
 
 <style>
 main {
-    height: 627.5rem;
-
     section {
         width: 100%;
         background-size: cover;
