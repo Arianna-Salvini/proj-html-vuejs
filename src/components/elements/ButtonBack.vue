@@ -20,6 +20,7 @@ export default {
     background-color: var(--rax-light);
     border-radius: 50%;
     border: none;
+    margin: 0 0.5rem;
 
     .play_btn_icon {
         font-size: 1rem;
@@ -28,8 +29,7 @@ export default {
 }
 
 .play_btn:hover {
-    background-color: transparent;
-    border: 1px solid var(--rax-highlight);
+    background-color: var(--rax-highlight);
     color: var(--rax-light);
 }
 </style>

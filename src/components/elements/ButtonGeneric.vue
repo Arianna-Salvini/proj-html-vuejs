@@ -23,6 +23,7 @@ export default {
     background-color: var(--rax-light);
     border-radius: 50%;
     border: none;
+    margin: 0 0.5rem;
 
     .play_btn_icon {
         font-size: 1rem;

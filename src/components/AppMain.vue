@@ -20,7 +20,7 @@ export default {
         <!--/gaming_company Section -->
         <GamingArena />
         <!-- /.gaming_area -->
-
+        <LiveStreaming />
         <!-- /.live_streaming -->
         <section class="trending_battle">
 
@@ -74,10 +74,7 @@ export default {
     }
 } */
 
-.live_streaming {
-    height: 834px;
-    background-image: url(public/img/v-bg.png);
-}
+
 
 .trending_battle {
     height: 1988px;
