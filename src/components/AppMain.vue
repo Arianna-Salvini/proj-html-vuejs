@@ -16,8 +16,7 @@ export default {
         UpcomingMatch,
         TrendingBattle,
         TrendingGames,
-    },
-
+    }
 }
 </script>
 
