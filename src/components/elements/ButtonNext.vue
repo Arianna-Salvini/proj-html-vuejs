@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .next_btn {
-    width: 3.3rem;
+    width: 2.7rem;
     aspect-ratio: 1;
     color: var(--rax-darkest);
     background-color: var(--rax-light);
