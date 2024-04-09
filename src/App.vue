@@ -48,7 +48,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 75%;
     height: 100%;
     margin: auto;
     /* background-color: #05CC7C; */
