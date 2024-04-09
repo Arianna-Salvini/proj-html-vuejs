@@ -1,12 +1,14 @@
 <script>
 import ButtonText from "./ButtonText.vue";
 import ButtonPlay from "./ButtonPlay.vue";
+import SectionTitle from "./SectionTitle.vue"
 
 export default {
     name: 'AppMain',
     components: {
         ButtonText,
         ButtonPlay,
+        SectionTitle,
     },
 }
 </script>
@@ -24,8 +26,10 @@ export default {
             <!-- /.conteiner_element -->
             <div class="half_container d_flex">
                 <div class="text_box">
-                    <h5 class="section_title green">12 Year Experience</h5>
-                    <h2 class="title_text">we are the best gaming company</h2>
+                    <div class="title_section">
+                        <SectionTitle title="we are the best game company" titleSection="12 Year Experience" />
+                    </div>
+
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aperiam aspernatur corporis illo
                         cupiditate commodi, architecto sequi provident pariatur temporibus sapiente sit praesentium iste
                         voluptate et odit vero dicta nihil harum, consequuntur molestiae dolore! Ut veritatis laudantium
@@ -57,7 +61,7 @@ export default {
                     </ul>
 
                     <div class="button_area d_flex">
-                        <ButtonText title="Read More" iconButton="fa-solid fa-right-long" />
+                        <ButtonText title="Discover More" iconButton="fa-solid fa-right-long" />
                         <ButtonPlay />
                     </div>
                 </div>
@@ -176,17 +180,6 @@ main {
 
         &>* {
             padding-bottom: 2.5rem;
-        }
-
-        &>h5 {
-            text-transform: uppercase;
-            font-size: 1rem;
-            padding-bottom: 1.5rem;
-        }
-
-        &>h2 {
-            font-size: 2.9rem;
-            text-transform: capitalize;
         }
 
         .list_check {
