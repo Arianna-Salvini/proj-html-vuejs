@@ -123,6 +123,7 @@ main {
         color: var(--rax-secondary);
     }
 
+    /*  */
     .half_container.element {
         justify-content: flex-end;
     }
@@ -216,6 +217,7 @@ main {
 .gaming_company {
     height: 1016px;
     background-color: var(--rax-darkest);
+    padding-top: 12.5rem;
 }
 
 .gaming_area {
