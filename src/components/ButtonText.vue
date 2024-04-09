@@ -19,7 +19,7 @@ export default {
 
 <style>
 .text_button {
-    margin: 2rem;
+    margin-right: 2rem;
     padding: 1rem 2rem;
     font-size: 1rem;
     color: var(--rax-darkest);
