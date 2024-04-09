@@ -5,6 +5,7 @@ import LiveStreaming from "./section/LiveStreaming.vue";
 import TrendingBattle from "./section/TrendingBattle.vue";
 import TrendingGames from "./section/TrendingGames.vue";
 import UpcomingMatch from "./section/UpcomingMatch.vue";
+import TeamMembers from "./section/TeamMembers.vue";
 
 
 export default {
@@ -16,6 +17,7 @@ export default {
         TrendingBattle,
         TrendingGames,
         UpcomingMatch,
+        TeamMembers,
     }
 }
 </script>
@@ -39,9 +41,8 @@ export default {
 
         <UpcomingMatch />
         <!-- /.upcoming_match -->
-        <section class="team_member">
 
-        </section>
+        <TeamMembers />
         <!-- /.team_member -->
         <section class="testimonials">
 
