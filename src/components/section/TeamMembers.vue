@@ -40,10 +40,11 @@ export default {
 
 <style>
 /* background */
-.upcoming_match {
-    height: 1123px;
-    background-image: url(public/img/v-bg.png);
+.team_member {
+    height: 831px;
+    background-color: var(--rax-darkest);
 }
+
 
 /* Style */
 

@@ -39,9 +39,10 @@ export default {
 
 <style>
 /* background */
-.trending_battle {
-    height: 1988px;
-    background-color: var(--rax-darkest);
+
+.trending_games {
+    height: 816px;
+    background-image: url(public/img/protfolio-vector.png);
 }
 
 /* Style */

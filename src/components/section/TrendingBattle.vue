@@ -46,6 +46,14 @@ export default {
 </template>
 
 <style>
+/* background */
+.trending_battle {
+    height: 1988px;
+    background-color: var(--rax-darkest);
+}
+
+
+
 /* Top menu section*/
 .top_menu {
     padding-top: 8rem;
