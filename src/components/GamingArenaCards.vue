@@ -11,7 +11,7 @@ export default {
 <template>
     <div class="gaming_arena_card ">
         <img class="card_img" :src="image" alt="">
-        <h4 class="title_gaming_arena"> {{ title }} </h4>
+        <h2 class="title_gaming_arena"> {{ title }} </h2>
         <div class="description"> {{ description }}</div>
     </div>
 </template>
@@ -24,13 +24,24 @@ export default {
     background-color: var(--rax-primary);
     text-align: center;
     padding: 3rem, 2rem;
+    line-height: 1.8rem;
+
 
     .card_img {
         width: 6.5rem;
         height: 6.5rem;
         background-color: var(--rax-darkest);
         border-radius: 50%;
-        object-fit: contain;
+        object-fit: scale-down;
+        margin-top: 3rem;
+    }
+
+    .title_gaming_arena {
+        padding-top: 1rem;
+    }
+
+    .description {
+        font-weight: 100;
 
     }
 }
