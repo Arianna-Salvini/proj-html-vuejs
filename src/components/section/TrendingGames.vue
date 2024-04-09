@@ -1,7 +1,6 @@
 <script>
 import ButtonNext from "../elements/ButtonNext.vue";
 import ButtonBack from "../elements/ButtonBack.vue";
-import ButtonPlay from "../elements/ButtonPlay.vue";
 import SectionTitle from "../elements/SectionTitle.vue";
 
 export default {
@@ -9,7 +8,6 @@ export default {
     components: {
         ButtonNext,
         ButtonBack,
-        ButtonPlay,
         SectionTitle,
     },
 }
@@ -21,7 +19,7 @@ export default {
             <div class="top_section d_flex">
                 <div class="half_container">
                     <div class="titles">
-                        <SectionTitle title="Checkout our llive streaming" titleSection="Live Streaming" />
+                        <SectionTitle title="choose who is the best in world!" titleSection="Trending Games" />
                     </div>
                 </div>
                 <div class="half_container .right">
@@ -31,6 +29,10 @@ export default {
                     </div>
                 </div>
             </div>
+            <div class="bottom_section">
+
+            </div>
+            <!-- /.bottom_section -->
         </div>
     </section>
 </template>
@@ -51,6 +53,11 @@ export default {
 
     .button_box {
         justify-content: flex-end;
+    }
+
+    .bottom_section {
+        width: 300px;
+        height: 390px;
     }
 }
 </style>
