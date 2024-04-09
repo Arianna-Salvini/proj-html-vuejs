@@ -119,7 +119,13 @@ export default {
         .play_btn_crsll {
             width: 5rem;
             background-color: var(--rax-highlight);
+
+            &:hover {
+                background-color: transparent;
+                color: var(--rax-highlight);
+            }
         }
+
 
         >h5 {
             margin-top: 0.5rem;
