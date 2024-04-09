@@ -8,6 +8,7 @@ import UpcomingMatch from "./section/UpcomingMatch.vue";
 import TeamMembers from "./section/TeamMembers.vue";
 import Testimonials from "./section/Testimonials.vue";
 import GameShop from "./section/GameShop.vue";
+import LatestNews from "./section/LatestNews.vue";
 
 
 export default {
@@ -22,6 +23,7 @@ export default {
         TeamMembers,
         Testimonials,
         GameShop,
+        LatestNews,
     }
 }
 </script>
@@ -54,9 +56,8 @@ export default {
 
         <GameShop />
         <!-- /.gamer_shop -->
-        <section class="latest_news">
 
-        </section>
+        <LatestNews />
         <!-- /.latest_news -->
     </main>
 </template>
@@ -76,15 +77,4 @@ export default {
         color: var(--rax-light);
     }
 } */
-
-
-
-
-
-
-
-.latest_news {
-    height: 977px;
-    background-color: var(--rax-darkest);
-}
 </style>
