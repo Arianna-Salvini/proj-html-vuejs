@@ -2,6 +2,10 @@
 import GamingCompany from "./section/GamingCompany.vue";
 import GamingArena from "./section/GamingArena.vue";
 import LiveStreaming from "./section/LiveStreaming.vue";
+import UpcomingMatch from "./section/UpcomingMatch.vue";
+import TrendingBattle from "./section/TrendingBattle.vue";
+import TrendingGames from "./section/TrendingGames.vue";
+
 
 export default {
     name: 'AppMain',
@@ -9,6 +13,9 @@ export default {
         GamingCompany,
         GamingArena,
         LiveStreaming,
+        UpcomingMatch,
+        TrendingBattle,
+        TrendingGames,
     },
 
 }
@@ -18,18 +25,17 @@ export default {
     <main>
         <GamingCompany />
         <!--/gaming_company Section -->
+
         <GamingArena />
         <!-- /.gaming_area -->
+
         <LiveStreaming />
         <!-- /.live_streaming -->
-        <section class="trending_battle">
 
-        </section>
+        <TrendingBattle />
         <!-- /.trending_battle -->
 
-        <section class="trending_games">
-
-        </section>
+        <TrendingGames />
         <!-- /.trending_games -->
         <section class="upcoming_match overlay">
 
@@ -73,13 +79,6 @@ export default {
         color: var(--rax-light);
     }
 } */
-
-
-
-.trending_battle {
-    height: 1988px;
-    background-color: var(--rax-darkest);
-}
 
 .trending_games {
     height: 816px;
