@@ -7,6 +7,7 @@ import TrendingGames from "./section/TrendingGames.vue";
 import UpcomingMatch from "./section/UpcomingMatch.vue";
 import TeamMembers from "./section/TeamMembers.vue";
 import Testimonials from "./section/Testimonials.vue";
+import GameShop from "./section/GameShop.vue";
 
 
 export default {
@@ -20,6 +21,7 @@ export default {
         UpcomingMatch,
         TeamMembers,
         Testimonials,
+        GameShop,
     }
 }
 </script>
@@ -49,9 +51,8 @@ export default {
 
         <Testimonials />
         <!-- /.testimonials -->
-        <section class="gamer_shop overlay">
 
-        </section>
+        <GameShop />
         <!-- /.gamer_shop -->
         <section class="latest_news">
 
@@ -62,10 +63,6 @@ export default {
 
 <style>
 /* Utility */
-.overlay {
-    background-color: var(--rax-darker);
-    background-blend-mode: overlay;
-}
 
 .green {
     color: var(--rax-secondary);
@@ -80,22 +77,11 @@ export default {
     }
 } */
 
-.trending_games {
-    height: 816px;
-    background-image: url(public/img/protfolio-vector.png);
-}
 
 
 
-.team_member {
-    height: 831px;
-    background-color: var(--rax-darkest);
-}
 
-.gamer_shop {
-    height: 847px;
-    background-image: url(public/img/shop-bg.png);
-}
+
 
 .latest_news {
     height: 977px;
