@@ -1,11 +1,14 @@
 <script>
 import GamingCompany from "./section/GamingCompany.vue";
 import GamingArena from "./section/GamingArena.vue";
+import LiveStreaming from "./section/LiveStreaming.vue";
+
 export default {
     name: 'AppMain',
     components: {
         GamingCompany,
         GamingArena,
+        LiveStreaming,
     },
 
 }
@@ -17,9 +20,7 @@ export default {
         <!--/gaming_company Section -->
         <GamingArena />
         <!-- /.gaming_area -->
-        <section class="live_streaming overlay">
 
-        </section>
         <!-- /.live_streaming -->
         <section class="trending_battle">
 
