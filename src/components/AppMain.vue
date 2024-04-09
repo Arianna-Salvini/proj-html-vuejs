@@ -6,6 +6,7 @@ import TrendingBattle from "./section/TrendingBattle.vue";
 import TrendingGames from "./section/TrendingGames.vue";
 import UpcomingMatch from "./section/UpcomingMatch.vue";
 import TeamMembers from "./section/TeamMembers.vue";
+import Testimonials from "./section/Testimonials.vue";
 
 
 export default {
@@ -18,6 +19,7 @@ export default {
         TrendingGames,
         UpcomingMatch,
         TeamMembers,
+        Testimonials,
     }
 }
 </script>
@@ -44,9 +46,8 @@ export default {
 
         <TeamMembers />
         <!-- /.team_member -->
-        <section class="testimonials">
 
-        </section>
+        <Testimonials />
         <!-- /.testimonials -->
         <section class="gamer_shop overlay">
 
@@ -89,15 +90,6 @@ export default {
 .team_member {
     height: 831px;
     background-color: var(--rax-darkest);
-}
-
-.testimonials {
-    height: 800px;
-    /* double images? YES, ypu can!*/
-    background-image: url(public/img/test-group.png), url(public/img/test-grouptwo.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: top right, bottom left;
 }
 
 .gamer_shop {
