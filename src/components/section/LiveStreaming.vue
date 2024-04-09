@@ -126,7 +126,6 @@ export default {
             }
         }
 
-
         >h5 {
             margin-top: 0.5rem;
         }
