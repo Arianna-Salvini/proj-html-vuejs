@@ -1,7 +1,7 @@
 <script>
-import NavigationBar from "./NavigationBar.vue";
-import ButtonText from "./ButtonText.vue";
-import ButtonPlay from "./ButtonPlay.vue";
+import NavigationBar from "./elements/NavigationBar.vue";
+import ButtonText from "./elements/ButtonText.vue";
+import ButtonPlay from "./elements/ButtonPlay.vue";
 
 export default {
     name: 'AppHeader',
