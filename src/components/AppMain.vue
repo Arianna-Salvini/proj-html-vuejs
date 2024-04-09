@@ -17,11 +17,52 @@ export default {
             <div class="half_container element d_flex">
                 <div class="image_box">
                     <img class="experience_img" src="../../public/img/exprince.jpg" alt="">
-                    <img class="experience_shape" src="../..public/img/exprience-shape.png" alt="">
+                    <img class="experience_shape" src="../../public/img/exprience-shape.png"
+                        alt="public/img/exprience-shape.png">
                 </div>
             </div>
             <!-- /.conteiner_element -->
-            <div class="half_container text"></div>
+            <div class="half_container d_flex">
+                <div class="text_box">
+                    <h5 class="section_title green">12 Year Experience</h5>
+                    <h2 class="title_text">we are the best gaming company</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aperiam aspernatur corporis illo
+                        cupiditate commodi, architecto sequi provident pariatur temporibus sapiente sit praesentium iste
+                        voluptate et odit vero dicta nihil harum, consequuntur molestiae dolore! Ut veritatis laudantium
+                        ab
+                        esse fuga.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium minus nihil, nostrum animi
+                        commodi quae.</p>
+                    <ul class="list_check">
+                        <li>
+                            <i class="fa-regular fa-circle-check green"></i>
+                            Accusantium minus nihil
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check green"></i>
+                            Neque aperiam aspernatur corporis
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check green"></i>
+                            Neque aperiam aspernatur corporis
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check green"></i>
+                            Neque aperiam aspernatur corporis
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check green"></i>
+                            Neque aperiam aspernatur corporis
+                        </li>
+                    </ul>
+
+                    <div class="button_area d_flex">
+                        <ButtonText title="Read More" iconButton="fa-solid fa-right-long" />
+                        <ButtonPlay />
+                    </div>
+                </div>
+
+            </div>
             <!-- /.container_text -->
         </section>
         <!--/gaming_company Section -->
@@ -78,16 +119,26 @@ main {
         background-blend-mode: overlay;
     }
 
+    .green {
+        color: var(--rax-secondary);
+    }
+
+    .half_container.element {
+        justify-content: flex-end;
+    }
+
     .half_container {
         width: 50%;
         height: 100%;
         padding: 2.5rem;
-        border: 1px solid white;
-        justify-content: flex-end;
+        color: var(--rax-light);
+        /* border: 1px solid white; */
 
+        /* left half of section */
         .image_box {
             width: 577px;
             height: 567px;
+            padding: 4.4rem;
             background-image: url(public/img/shape1.png), url(public/img/shape2.png);
             background-size: 438px, 254px;
             background-repeat: no-repeat;
@@ -106,10 +157,59 @@ main {
                 height: 115px;
                 position: absolute;
                 top: 40px;
-                left: -74px;
+                left: -85px;
             }
+
         }
     }
+
+    /* right half of section */
+
+    .text_box {
+        width: 640px;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        &>* {
+            padding-bottom: 2.5rem;
+        }
+
+        &>h5 {
+            text-transform: uppercase;
+            font-size: 1rem;
+            padding-bottom: 1.5rem;
+        }
+
+        &>h2 {
+            font-size: 2.9rem;
+            text-transform: capitalize;
+        }
+
+        .list_check {
+            list-style-type: none;
+        }
+
+        & ul {
+            padding-bottom: 1rem;
+        }
+
+        & li {
+            padding-bottom: 1.5rem;
+        }
+
+        &>p {
+            line-height: 1.7rem;
+            font-weight: 100;
+            word-spacing: 0.2rem;
+        }
+
+
+    }
+
+
 
 }
 
