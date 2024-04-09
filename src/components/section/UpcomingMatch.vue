@@ -1,22 +1,64 @@
 <script>
-import ButtonText from "../elements/ButtonText.vue";
-import ButtonPlay from "../elements/ButtonPlay.vue";
+import ButtonNext from "../elements/ButtonNext.vue";
+import ButtonBack from "../elements/ButtonBack.vue";
 import SectionTitle from "../elements/SectionTitle.vue";
 
 
 export default {
     name: 'UpcomingMatch',
     components: {
-        ButtonText,
-        ButtonPlay,
+        ButtonNext,
+        ButtonBack,
         SectionTitle,
     },
 }
 </script>
 
 <template>
+    <section class="upcoming_match overlay">
+        <div class="container ">
+            <div class="top_section d_flex">
+                <div class="half_container">
+                    <div class="titles">
+                        <SectionTitle title="Keep eyes & Manage upcoming Battle" titleSection="Upcoming Match" />
+                    </div>
+                </div>
+                <div class="half_container .right">
+                    <div class="button_box d_flex ">
+                        <ButtonBack />
+                        <ButtonNext />
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_section">
+
+            </div>
+            <!-- /.bottom_section -->
+        </div>
+    </section>
 </template>
 
-<script>
+<style>
+/* background */
+.upcoming_match {
+    height: 1123px;
+    background-image: url(public/img/v-bg.png);
+}
 
-</script>
+/* Style */
+
+.half_container {
+    width: 50%;
+    height: 100%;
+    padding: 2.5rem;
+
+    .button_box {
+        justify-content: flex-end;
+    }
+
+    .bottom_section {
+        width: 300px;
+        height: 390px;
+    }
+}
+</style>

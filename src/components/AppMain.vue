@@ -2,9 +2,9 @@
 import GamingCompany from "./section/GamingCompany.vue";
 import GamingArena from "./section/GamingArena.vue";
 import LiveStreaming from "./section/LiveStreaming.vue";
-import UpcomingMatch from "./section/UpcomingMatch.vue";
 import TrendingBattle from "./section/TrendingBattle.vue";
 import TrendingGames from "./section/TrendingGames.vue";
+import UpcomingMatch from "./section/UpcomingMatch.vue";
 
 
 export default {
@@ -13,9 +13,9 @@ export default {
         GamingCompany,
         GamingArena,
         LiveStreaming,
-        UpcomingMatch,
         TrendingBattle,
         TrendingGames,
+        UpcomingMatch,
     }
 }
 </script>
@@ -36,9 +36,8 @@ export default {
 
         <TrendingGames />
         <!-- /.trending_games -->
-        <section class="upcoming_match overlay">
 
-        </section>
+        <UpcomingMatch />
         <!-- /.upcoming_match -->
         <section class="team_member">
 
@@ -84,10 +83,7 @@ export default {
     background-image: url(public/img/protfolio-vector.png);
 }
 
-.upcoming_match {
-    height: 1123px;
-    background-image: url(public/img/v-bg.png);
-}
+
 
 .team_member {
     height: 831px;
