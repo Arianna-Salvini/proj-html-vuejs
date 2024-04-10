@@ -56,7 +56,9 @@ export default {
                 </div>
             </div>
 
-            <div class="bottom_section d_flex">
+            <!-- TO FINISH -->
+
+            <!-- <div class="bottom_section d_flex">
                 <div v-for="(card, index) in cards" :key="index" class="match_cards">
                     <div class="img_team">
                         <img :src="card.image" alt="">
@@ -77,10 +79,10 @@ export default {
                         </div>
                         <ButtonText title="View More" />
                     </div>
-                </div>
+                </div> -->
 
-            </div>
-            <!-- /.bottom_section -->
+        </div>
+        <!-- /.bottom_section -->
         </div>
     </section>
 </template>
