@@ -74,6 +74,23 @@ export default {
         <div class="container">
             <NavigationBar :menuVoices="menuVoices" />
             <div class="hero d_flex">
+                <div class="social_icons">
+                    <div class="social_icon">
+                        <div class="social_box d_flex">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="social_box d_flex">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="social_box d_flex">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="social_box d_flex">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.social_icons -->
                 <div>
                     <h4 id="welcome">Welcome to raxg</h4>
                     <h2>Are youready for your next challenge?</h2>
@@ -115,6 +132,21 @@ header {
 
     .button_area {
         justify-content: center;
+    }
+}
+
+/* Social icon */
+.social_box {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.7rem 0;
+    background-color: var(--rax-darker);
+    border-radius: 50%;
+    color: var(--rax-light);
+    justify-content: center;
+
+    &:hover {
+        background-color: var(--rax-highlight);
     }
 }
 </style>
