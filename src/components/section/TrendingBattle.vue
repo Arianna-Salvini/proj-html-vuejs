@@ -213,7 +213,7 @@ export default {
         }
 
         .card_battle_text {
-            background-color: var(--rax-dark);
+            background-color: var(--rax-primary-dark);
             padding: 1rem;
             border-radius: 0 0 10px 10px;
 
@@ -231,7 +231,7 @@ export default {
     }
 
     .versus {
-        color: var(--rax-secondary);
+        color: var(--rax-highlight);
         background-color: var(--rax-darkest);
         font-size: 1.5rem;
         font-weight: 800;
@@ -286,12 +286,24 @@ export default {
     }
 }
 
+.battle_card:hover {
+    background-color: var(--rax-dark);
+    border: none;
+
+}
+
+.battle_card:hover .battle_time {
+    background-color: var(--rax-secondary);
+}
+
+
+
 /* Buttons style */
 .icon_btn {
     width: 3rem;
     aspect-ratio: 1;
     color: var(--rax-darkest);
-    background-color: var(--rax-secondary);
+    background-color: var(--rax-highlight);
     border-radius: 50%;
     border: none;
     margin: 0 0.4rem;
@@ -302,8 +314,9 @@ export default {
 
 }
 
-.icon_btn:hover {
-    background-color: transparent;
+.battle_card:hover .icon_btn {
+    background-color: var(--rax-darker);
     color: var(--rax-light);
+    border: none;
 }
 </style>

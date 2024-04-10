@@ -33,6 +33,7 @@ export default {
 <style>
 :root {
     --rax-primary: #4350FF;
+    --rax-primary-dark: #152257;
     --rax-secondary: #05CC7C;
     --rax-highlight: #00AC4D;
     --rax-light: #ffffff;
