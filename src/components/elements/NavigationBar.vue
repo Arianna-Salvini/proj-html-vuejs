@@ -2,7 +2,7 @@
 export default {
     name: 'NavigationBar',
     props: {
-        menuVoices: Array,
+        menuVoices: Object,
     }
 }
 </script>
@@ -16,18 +16,7 @@ export default {
         <!-- Navigation Element -->
         <ul class="menu_nav d_flex">
             <li v-for="(menuVoice, index) in menuVoices" :key="index">
-                <a v-if="!menuVoice.dropdownMenu" href="#">{{ menuVoice.title }}</a>
-                <div v-else>
-                    <a> {{ menuVoice.title }} <i class="fa fa-chevron-down"></i> </a>
-                    <div class="dropdown_menu">
-                        <ul>
-                            <li v-for="(dropdownVoicesMenu, subIndex) in menuVoice.dropdownMenu" :key="subIndex">
-                                <a href="#">{{ dropdownVoicesMenu.title }}</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
+                <a>{{ menuVoice.title }}</a>
             </li>
         </ul>
         <!-- Right Icon  -->
@@ -61,8 +50,7 @@ export default {
 
         &>li {
             padding: 1rem;
-
-
+            list-style-type: none;
         }
     }
 
@@ -77,20 +65,17 @@ export default {
     .icon_menu {
         width: 3rem;
         height: 3rem;
+        color: var(--rax-darkest);
         background-color: var(--rax-light);
         border-radius: 50%;
         justify-content: center;
         margin-right: 1rem;
         position: relative;
-
-        &>i {
-            color: var(--rax-darkest);
-        }
     }
 }
 
 /* DropdownMenu */
-
+/* 
 .dropdown_menu {
     position: absolute;
     background-color: var(--rax-darker);
@@ -115,5 +100,5 @@ export default {
 
 .dropdown_menu li:hover {
     display: block;
-}
+} */
 </style>

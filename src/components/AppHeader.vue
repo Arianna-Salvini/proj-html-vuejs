@@ -21,7 +21,7 @@ export default {
                         { subTitle: 'Contact' },
                         { subTitle: '404' },
                     ],
-                    open: false,
+
                 },
                 {
                     title: 'Pages',
@@ -36,7 +36,7 @@ export default {
                         { subTitle: '404' },
 
                     ],
-                    open: false,
+
                 },
                 { titles: 'Tournament' },
                 {
@@ -48,17 +48,20 @@ export default {
                         { subTitle: 'Squad' },
                         { subTitle: '404' },
                     ],
-                    open: false,
+
                 },
                 {
-                    titles: 'Blog',
+                    title: 'Blog',
                     dropdownMenu: [
                         { subTitle: 'Blog' },
                         { subTitle: 'Latest News' },
                     ],
-                    open: false,
+
                 },
-                { titles: 'Contact' },
+                {
+                    title: 'Contact',
+                    dropdownMenu: ''
+                },
 
             ]
         }
