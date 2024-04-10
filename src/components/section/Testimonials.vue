@@ -20,17 +20,29 @@ export default {
             <div class="top_section d_flex">
                 <div class="half_container">
                     <div class="titles">
-                        <SectionTitle title="What our client say" titleSection="Testimonials" />
-                    </div>
-                </div>
-                <div class="half_container .right">
-                    <div class="button_box d_flex ">
-                        <ButtonBack />
-                        <ButtonNext />
+                        <SectionTitle title="What our clientas say" titleSection="Testimonials" />
                     </div>
                 </div>
             </div>
-            <!-- /.bottom_section -->
+            <!-- /.top_section -->
+            <div class="bottom_container">
+                <div class="bottom_box d_flex ">
+                    <div class="testimonial_imag">
+                        <img src="../../../public/img/test1.png" alt="">
+                    </div>
+                    <div class="testimonial_imag">
+                        <img src="../../../public/img/test2.png" alt="">
+                    </div>
+                    <div class="testimonial_imag">
+                        <img src="../../../public/img/test3.png" alt="">
+                    </div>
+                    <div class="testimonial_imag">
+                        <img src="../../../public/img/test4.png" alt="">
+                    </div>
+                    <ButtonBack class="over back" />
+                    <ButtonNext class="over next" />
+                </div>
+            </div>
         </div>
     </section>
 </template>
@@ -53,14 +65,26 @@ export default {
     height: 100%;
     padding: 7rem 0 0;
     text-align: center;
+}
 
-    .button_box {
-        justify-content: flex-end;
-    }
 
-    .bottom_section {
-        width: 300px;
-        height: 390px;
-    }
+
+.bottom_box {
+    width: 300px;
+    height: 390px;
+    padding-top: 2rem;
+
+}
+
+.bottom_container {
+    position: relative;
+}
+
+.over {
+    position: absolute;
+}
+
+.over.next {
+    right: 11%;
 }
 </style>
