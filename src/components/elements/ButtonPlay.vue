@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .play_btn {
-    width: 3.3rem;
+    width: 3rem;
     aspect-ratio: 1;
     color: var(--rax-darkest);
     background-color: var(--rax-secondary);
