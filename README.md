@@ -1,7 +1,30 @@
-# Vue 3 + Vite
+import ButtonText from "./elements/ButtonText.vue";
+import ButtonPlay from "./elements/ButtonPlay.vue";
+import SectionTitle from "./elements/SectionTitle.vue";
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<script>
+import ButtonText from "../elements/ButtonText.vue";
+import ButtonPlay from "../elements/ButtonPlay.vue";
+import SectionTitle from "../elements/SectionTitle.vue";
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+export default {
+    name: 'GamingCompany',
+    components: {
+        ButtonText,
+        ButtonPlay,
+        SectionTitle,
+    },
+}
+</script>
+
+<template>
+
+</template>
+
+<script>
+
+</script>
+
+
+                    <SectionTitle title="the best gaming arena on the world!" titleSection="Our Extrem Feature" />

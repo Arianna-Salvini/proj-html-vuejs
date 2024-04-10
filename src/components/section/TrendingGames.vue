@@ -29,9 +29,7 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="bottom_section">
 
-            </div>
             <!-- /.bottom_section -->
         </div>
     </section>
@@ -54,11 +52,6 @@ export default {
 
     .button_box {
         justify-content: flex-end;
-    }
-
-    .bottom_section {
-        width: 300px;
-        height: 390px;
     }
 }
 </style>
