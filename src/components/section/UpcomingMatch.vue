@@ -83,7 +83,7 @@ export default {
 
         </div>
         <!-- /.bottom_section -->
-        </div>
+
     </section>
 </template>
 
