@@ -9,6 +9,59 @@ export default {
         NavigationBar,
         ButtonText,
         ButtonPlay,
+    },
+    data() {
+        return {
+            menuVoices: [
+                {
+                    title: 'Home',
+                    dropdownMenu: [
+                        { subTitle: 'Home' },
+                        { subTitle: 'Info' },
+                        { subTitle: 'Contact' },
+                        { subTitle: '404' },
+                    ],
+                    open: false,
+                },
+                {
+                    title: 'Pages',
+                    dropdownMenu: [
+                        { subTitle: 'Abaout Us' },
+                        { subTitle: 'About Us' },
+                        { subTitle: 'Matches' },
+                        { subTitle: 'Team' },
+                        { subTitle: 'Squad' },
+                        { subTitle: 'Squad Details' },
+                        { subTitle: 'Coming Soon' },
+                        { subTitle: '404' },
+
+                    ],
+                    open: false,
+                },
+                { titles: 'Tournament' },
+                {
+                    title: 'Shop',
+                    dropdownMenu: [
+                        { subTitle: 'Shop' },
+                        { subTitle: 'Gamer Shop' },
+                        { subTitle: 'Chart' },
+                        { subTitle: 'Squad' },
+                        { subTitle: '404' },
+                    ],
+                    open: false,
+                },
+                {
+                    titles: 'Blog',
+                    dropdownMenu: [
+                        { subTitle: 'Blog' },
+                        { subTitle: 'Latest News' },
+                    ],
+                    open: false,
+                },
+                { titles: 'Contact' },
+
+            ]
+        }
     }
 }
 </script>
@@ -16,7 +69,7 @@ export default {
 <template>
     <header>
         <div class="container">
-            <NavigationBar />
+            <NavigationBar :menuVoices="menuVoices" />
             <div class="hero d_flex">
                 <div>
                     <h4 id="welcome">Welcome to raxg</h4>
