@@ -68,13 +68,4 @@ export default {
 .green {
     color: var(--rax-secondary);
 }
-
-/* main {
-    section {
-        width: 100%;
-        background-size: cover;
-        background-position: center;
-        color: var(--rax-light);
-    }
-} */
 </style>

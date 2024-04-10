@@ -51,7 +51,7 @@ export default {
 .half_container {
     width: 50%;
     height: 100%;
-    padding: 7rem 0;
+    padding: 7rem 0 0;
     text-align: center;
 
     .button_box {
