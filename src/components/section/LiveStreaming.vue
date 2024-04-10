@@ -72,6 +72,7 @@ export default {
     width: 50%;
     height: 100%;
     padding: 1rem;
+    margin: 0 1.1rem;
     flex-direction: column;
     justify-content: center;
 
