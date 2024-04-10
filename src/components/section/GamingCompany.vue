@@ -16,7 +16,7 @@ export default {
 
 <template>
     <section class="gaming_company d_flex">
-        <div class="half_container right_to_center d_flex">
+        <div class="half_container left_to_center d_flex">
             <div class="image_box">
                 <img class="experience_img" src="../../../public/img/exprince.jpg" alt="">
                 <img class="experience_shape" src="../../../public/img/exprience-shape.png"
@@ -24,7 +24,7 @@ export default {
             </div>
         </div>
         <!-- /.conteiner_element -->
-        <div class="half_container d_flex">
+        <div class="half_container right_to_center d_flex">
             <div class="text_box">
                 <!-- Component for titles -->
                 <div class="title_section">
@@ -81,7 +81,7 @@ export default {
 .gaming_company {
     height: 1016px;
     background-color: var(--rax-darkest);
-    padding-top: 12.5rem;
+    padding-top: 10rem;
 }
 
 /* // Utylity */
@@ -97,11 +97,18 @@ section {
     width: 50%;
     height: 100%;
     padding: 2.5rem;
+
     /* border: 1px solid white; */
 }
 
 .half_container.right_to_center {
-    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 4.4rem;
+}
+
+.half_container.left_to_center {
+    align-items: flex-end;
+
 }
 
 
@@ -109,7 +116,6 @@ section {
 .image_box {
     width: 577px;
     height: 567px;
-    padding: 4.4rem;
     background-image: url(public/img/shape1.png), url(public/img/shape2.png);
     background-size: 438px, 254px;
     background-repeat: no-repeat;
