@@ -143,6 +143,7 @@ section {
     justify-content: center;
     align-items: flex-start;
 
+
     &>* {
         padding-bottom: 2.5rem;
     }
@@ -157,12 +158,15 @@ section {
 
     & li {
         padding-bottom: 1.5rem;
+        text-align: left;
+
     }
 
     &>p {
         line-height: 1.7rem;
         font-weight: 100;
         word-spacing: 0.2rem;
+        text-align: left;
     }
 
 
