@@ -44,8 +44,9 @@ export default {
 }
 
 body {
-    max-width: 1920px;
+    width: 1920px;
     background-color: var(--rax-darker);
+    margin: auto;
 }
 
 .container {
